@@ -17,7 +17,7 @@ spec:
         app: pages
     spec:
       containers:
-        - image: rswapnil/pages:config
+        - image: rswapnil/pages:pipeline
           name: pages
           ports:
             - containerPort: 8080
