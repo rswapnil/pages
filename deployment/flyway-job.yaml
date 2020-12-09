@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: flyway-job
-  namespace: [student-name]
+  namespace: finchley
   labels:
     app: pages
 spec:
